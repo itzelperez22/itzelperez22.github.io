@@ -3,51 +3,50 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
+#textoFoto {
     background-color: mediumpurple;
-    color: #fff;
-    text-align: center;
+    text-align: left;
+    color: black;
     padding: 20px;
-    display: flex;
-    align-items: center;
+    width: 500px;   
 }
 img[src]{
     border-radius: 50%;
     margin-right: 20px;
     width: 250px;
-    height: 200px;
+    height: 220px;
     align-items: left;
+    border: 2px solid aqua;
 }
-#textoFoto{
-    text-align: right;
+p{
+    text-align: justify;
+    margin: 20px;
 }
-
 .container{
     display: flex;
 }
-
-#izquierda{
+#derecha{
+    background-color: mediumpurple;
+    flex: auto;
     text-align: left;
 }
-#derecha{
-    text-align: right;
-}
-h1 {
-    margin: 0;
-}
 section {
+    background-color:#DA6BE5;
     margin: 20px;
+    border: 2px dotted lightblue;
 }
 h2 {
-    color: #333;
+    margin: 10px;
+    color:rgb(117, 2, 117);
 }
-ul {
-    list-style-type:circle;
-    padding: 0;
+h3{
+    margin: 10px;
+    color: rgb(13, 13, 155);
 }
 ul li {
     margin-bottom: 5px;
+    list-style-type:armenian;
+    padding: 0;
+    background-color: #DA6BE5;
 }
-#contacto p {
-    margin: 5px 0;
-}
+
