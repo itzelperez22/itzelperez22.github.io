@@ -14,9 +14,19 @@ header {
 .fotoPerfil{
     border-radius: 50%;
     margin-right: 20px;
+    width: 150px;
+    height: 100px;
 }
-.header-text{
-    text-align: right;
+#textoFoto{
+    text-align: center;
+}
+#izquierda{
+    display: flex;
+    align-items: left;
+}
+#derecha{
+    display: flex;
+    align-items: right;
 }
 h1 {
     margin: 0;
