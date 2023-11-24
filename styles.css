@@ -16,6 +16,7 @@ header {
     margin-right: 20px;
     width: 250px;
     height: 200px;
+    align-items: left;
 }
 #textoFoto{
     text-align: right;
@@ -36,7 +37,7 @@ h2 {
     color: #333;
 }
 ul {
-    list-style-type: none;
+    list-style-type:circle;
     padding: 0;
 }
 ul li {
