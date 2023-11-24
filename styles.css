@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
 }
-.fotoPerfil{
+img[src]{
     border-radius: 50%;
     margin-right: 20px;
     width: 250px;
@@ -21,11 +21,16 @@ header {
 #textoFoto{
     text-align: right;
 }
+
+.container{
+    display: flex;
+}
+
 #izquierda{
-    align-items: left;
+    text-align: left;
 }
 #derecha{
-    align-items: right;
+    text-align: right;
 }
 h1 {
     margin: 0;
